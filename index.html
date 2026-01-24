@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+`<!DOCTYPE html>
 <html lang="en">
 <head>
     <title>Pizza Ordering Form</title>
@@ -11,12 +11,12 @@
 
 <h2>Contact Information</h2>
 
-<label for="inName">Name:</label> 
-<input type="text" name="inName" id="inName" required><br>
-<label for="inName">Phone:</label>
-<input type="text" name="inName" id="inName"required><br>
-<label for="inName">Email:</label>
-<input type="text" name="inName" id="inName"required><br>
+<label for="name">Name:</label> 
+<input type="text" name="name" id="name" required><br>
+<label for="phone">Phone:</label>
+<input type="tel" name="phone" id="phone" required><br>
+<label for="email">Email:</label>
+<input type="email" name="email" id="email" required><br>
 
 <h2>Select Pizza Size</h2>
 
@@ -47,16 +47,19 @@
 <textarea name="comments">Add instructions</textarea><br>
 <input type="submit" value="Submit"><br><br><br><br>
 
+</form>
 
 <table border=1>
 	<caption>List of my favorite games</caption>
 	
-	<tbody>
+	<thead>
 		<tr>
 			<th>Developer</th>
         	<th>Title</th>
 			<th>Year</th>
 		</tr>
+	</thead>
+	<tbody>
 		<tr>
 			<td>Gearbox Software</td>
 			<td>Borderlands 2</td>
@@ -67,23 +70,26 @@
 			<td>Fire Emblem Awakening</td>		
 			<td>2012</td>
 		</tr>
-		</tr>	
-			<td>Blizard Entertainment</td>
+		<tr>	
+			<td>Blizzard Entertainment</td>
 			<td>Overwatch</td>
 			<td>2016</td>
 		</tr>
 		<tr>
-			<td>Riot Games</td>
-			<td>Valorant</td>		
+			<td rowspan="2">Riot Games</td>
+			<td>Teamfight Tactics</td>		
+			<td>2019</td>
+		</tr>
+		<tr>
+			<td>Valorant</td>
 			<td>2020</td>
 		</tr>
 	</tbody>
 	<tfoot>
 		<tr>
-			<td>Count: 4</td>
+			<td colspan="3">Count: 5</td>
 		</tr>
 	</tfoot>
 </table>
-</form>
 </body>
 </html>
