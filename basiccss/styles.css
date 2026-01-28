@@ -1,0 +1,28 @@
+body {
+    background-color: lightblue;
+ 
+  }
+
+h1 {
+    text-align: center;
+}
+
+  #paragraph2 {
+    background-color: white;
+    line-height: 25px;
+    width: 555px;
+    border: 4px solid green;
+    padding: 25px;
+    margin: 20px;
+  }
+
+  .blue {
+    background-color: indigo;
+    line-height: 25px;
+    color: white;
+    max-width;
+    border: 4px solid indigo;
+    padding: 10px;
+    margin: 20px;
+  }
+
