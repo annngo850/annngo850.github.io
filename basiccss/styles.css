@@ -14,6 +14,10 @@ h2 {
     font-family: 'arial', 'verdana', sans-serif
 }
 
+h3{
+  font-size: 22px;
+}
+
   #paragraph2 {
     background-color: white;
     line-height: 30px;
@@ -34,6 +38,7 @@ h2 {
   }
 
   ol {
+    font-size: 22px;
     list-style-type: decimal-leading-zero;
   }
 
