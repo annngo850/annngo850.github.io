@@ -1,0 +1,25 @@
+header {
+    position: static;
+    Background-color: red;
+    Overflow: auto;
+    text-align: center;   
+}
+
+button {
+    position: fixed;
+    Background-color: blue;
+    Color: white;
+    Overflow: auto;
+    text-align: center;   
+}
+
+#thanks {
+    position: fixed;
+    font-size: 30px;
+    bottom: 0;
+    right: 0;
+    width: 300px;
+    height: 80px;
+    background-color: lightgreen;
+    border: 3px solid #73AD21;
+    }
