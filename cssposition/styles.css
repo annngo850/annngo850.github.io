@@ -15,6 +15,12 @@ body {
     box-sizing: border-box;
 }
 
+#jumpMenu a {
+    display: block;
+    margin-bottom: 25px;
+    text-decoration: underline;
+}
+
 main {
     margin-left: 10%;
     padding-top: 120px;
