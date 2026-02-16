@@ -12,8 +12,8 @@ function tickUp() {
 // -= 1 allows us to decrease the ticker lower
 function tickDown() {
     counter -=1;
-    // same as the above comment. helps me with consistency !
     const count = document.getElementById("counter");
+    // helps me with consistency !
     count.textContent = counter;
 }
 
