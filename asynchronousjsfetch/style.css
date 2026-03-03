@@ -1,1 +1,176 @@
-
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background: white;
+    min-height: 100vh;
+    display: flex;
+    place-content: center;
+    align-items: center;
+    padding: 40px 20px;
+  }
+  
+  .layout {
+    display: flex;
+    gap: 20px;
+    width: 100%;
+    max-width: 900px;
+  }
+  
+  .card {
+    background: lightblue;
+    border-radius: 14px;
+    border: 3px solid #darkblue;
+    padding: 18px;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+  }
+  
+  .search-card {
+    width: 360px;
+  }
+  
+  .image-box {
+    background: linear-gradient(to top, lightblue, white);
+    border-radius: 10px;
+    padding: 14px;
+    text-align: center;
+    min-height: 220px;
+  }
+  
+  #pokeimage {
+    max-width: 150px;
+    max-height: 150px;
+    image-rendering: pixelated;
+  }
+  
+  .pokemon-name {
+    margin-top: 8px;
+    font-weight: bold;
+    text-transform: capitalize;
+    color: black;
+  }
+  
+  .search-area {
+    display: flex;
+    gap: 8px;
+  }
+  
+  .search-area input {
+    flex: 1;
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+  }
+  
+  .search-area button {
+    padding: 10px 16px;
+    border-radius: 8px;
+    border: none;
+    background: blue;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .search-area button:hover {
+    background: lightblue;
+  }
+  
+  .status-text {
+    font-size: 0.8rem;
+    color: red;
+    min-height: 18px;
+  }
+  
+  #add {
+    padding: 12px;
+    border-radius: 10px;
+    border: none;
+    background: slategray;
+    color: lightskyblue;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  #add:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+  }
+  
+  .team-card {
+    flex: 1;
+  }
+  
+  .move-section {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  
+  .move-section select {
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+  }
+  
+  .team-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+  }
+  
+  .team-list {
+    background: blue;
+    border-radius: 10px;
+    padding: 12px;
+    min-height: 280px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .empty-message {
+    color: white;
+    font-size: 0.9rem;
+  }
+  
+  .teamcard {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    background: blue;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  
+  .teamcard img {
+    width: 55px;
+    height: 55px;
+    image-rendering: pixelated;
+  }
+  
+  .teamcard-name {
+    font-weight: bold;
+    color: white;
+    text-transform: capitalize;
+  }
+  
+  .teamcard-remove {
+    margin-left: auto;
+    background: maroon;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 6px;
+    color: red;
+    cursor: pointer;
+  }
+  
+  .teamcard-remove:hover {
+    background: red;
+  }
